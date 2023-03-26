@@ -1,6 +1,136 @@
-.logo-web {
-  color: #4d5ae5;
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --primary-white-color: #ffffff;
 }
+
+.body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.page-header {
+}
+
+/* Site Navigation */
+
+.logo-web {
+  color: var(--accent-color);
+  width: 44px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .logo-studio {
-  color: #2e2f42;
+  color: var(--primary-text-color);
+  width: 71px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: black;
+}
+
+.list {
+  list-style: none;
+}
+
+.email {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  font-style: normal;
+  font-size: 16px;
+  width: 153px;
+  height: 24px;
+  left: 940px;
+  top: 24px;
+}
+
+.telephone {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  font-style: normal;
+  font-size: 16px;
+  width: 151px;
+  height: 24px;
+  left: 1133px;
+  top: 24px;
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--title-text-color);
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 16px 32px;
+  gap: 10px;
+}
+
+.title {
+  color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.description {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Team Members */
+
+.profession {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
 }

@@ -105,17 +105,20 @@
 .hero-title {
   color: var(--primary-white-color);
   font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-
   font-family: "Roboto", sans-serif;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  padding: 16px 32px;
-  gap: 10px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .title {

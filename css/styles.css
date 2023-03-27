@@ -201,6 +201,7 @@ body {
 
 .button-filter {
   color: var(--accent-color);
+  background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: 500;

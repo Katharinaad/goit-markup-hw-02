@@ -44,7 +44,7 @@ body {
 /* Site Navigation */
 
 .site-nav .link {
-  color: var(--primary-text-color);
+  color: #2e2f42;
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -67,7 +67,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  height: 1.5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -186,7 +186,7 @@ body {
 
 /* Portfolio */
 
-.site-menu {
+.website-menu {
   color: #2e2f42;
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -202,7 +202,7 @@ body {
 .button-filter {
   color: var(--accent-color);
   background-color: #f4f4fd;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -216,9 +216,19 @@ body {
   background-color: #404bbf;
 }
 
+.title-portfolio {
+  color: #2e2f42;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .portfolio-descr {
   color: #434455;
-  font-family: "Roboto";
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

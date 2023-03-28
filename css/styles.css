@@ -58,6 +58,10 @@ body {
   list-style: none;
 }
 
+.address-information {
+  font-style: normal;
+}
+
 .address-information .link {
   color: var(--primary-text-color);
   font-style: normal;
@@ -79,7 +83,7 @@ body {
   background: #2e2f42;
 }
 
-.hero-title {
+.hero- {
   color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
   font-weight: 700;
@@ -222,7 +226,6 @@ body {
 .title-portfolio {
   color: #2e2f42;
   font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -232,8 +235,6 @@ body {
 .portfolio-descr {
   color: #434455;
   font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

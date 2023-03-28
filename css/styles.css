@@ -197,8 +197,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.site-menu .link:hover,
-.site-menu .link:focus {
+.website-menu .link:hover,
+.website-menu .link:focus {
   color: #404bbf;
 }
 

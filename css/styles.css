@@ -193,7 +193,7 @@ body {
 
 /* Portfolio */
 
-.website-menu {
+.website-menu .link {
   color: #2e2f42;
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -235,6 +235,7 @@ body {
 .portfolio-descr {
   color: #434455;
   font-family: Roboto, sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

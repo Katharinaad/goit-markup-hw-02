@@ -38,9 +38,9 @@ body {
   text-transform: uppercase;
 }
 
-/* Site Navigation */
+/* Page Navigation */
 
-.site-nav .link {
+.page-nav .link {
   color: #2e2f42;
   font-family: Roboto, sans-serif;
   font-weight: 500;
@@ -49,8 +49,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.page-nav .link:hover,
+.page-nav .link:focus {
   color: #404bbf;
 }
 

@@ -3,6 +3,8 @@
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
   --primary-white-color: #ffffff;
+  --button-color: #404bbf;
+  --secondary-text-color: #f4f4fd;
 }
 
 body {
@@ -40,7 +42,7 @@ body {
 /* Page Navigation */
 
 .page-nav .link {
-  color: #2e2f42;
+  color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -50,7 +52,7 @@ body {
 
 .page-nav .link:hover,
 .page-nav .link:focus {
-  color: #404bbf;
+  color: var(--button-color);
 }
 
 .list {
@@ -73,19 +75,18 @@ body {
 
 .address-information .link:hover,
 .address-information .link:focus {
-  color: #404bbf;
+  color: var(--button-color);
 }
 
 /* Hero */
 
 .hero {
-  background: #2e2f42;
+  background: var(--title-text-color);
 }
 
 .hero-title {
   color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -96,7 +97,6 @@ body {
 .section-title {
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -114,7 +114,7 @@ body {
 .button {
   color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
-  background-color: #4d5ae5;
+  background-color: var(--accent-color);
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
@@ -124,7 +124,7 @@ body {
 
 .button:hover,
 .button:focus {
-  background-color: #404bbf;
+  background-color: var(--button-color);
 }
 
 .title {
@@ -148,11 +148,11 @@ body {
 /* Team Members */
 
 .section-team {
-  background-color: #f4f4fd;
+  background-color: var(--secondary-text-color);
 }
 
 .picture-frame {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
 }
 
 .profession {
@@ -177,7 +177,7 @@ body {
 }
 
 .logo-studio-footer {
-  color: #f4f4fd;
+  color: var(--secondary-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -187,13 +187,13 @@ body {
 }
 
 .slogan {
-  color: #f4f4fd;
+  color: var(--secondary-text-color);
 }
 
 /* Portfolio */
 
 .website-menu .link {
-  color: #2e2f42;
+  color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -202,12 +202,12 @@ body {
 }
 .website-menu .link:hover,
 .website-menu .link:focus {
-  color: #404bbf;
+  color: var(--button-color);
 }
 
 .button-filter {
   color: var(--accent-color);
-  background-color: #f4f4fd;
+  background-color: var(--secondary-text-color);
   font-family: Roboto, sans-serif;
   cursor: pointer;
   font-weight: 500;
@@ -219,11 +219,11 @@ body {
 .button-filter:hover,
 .button-filter:focus {
   color: var(--primary-white-color);
-  background-color: #404bbf;
+  background-color: var(--button-color);
 }
 
 .title-portfolio {
-  color: #2e2f42;
+  color: var(--title-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -232,7 +232,7 @@ body {
 }
 
 .portfolio-descr {
-  color: #434455;
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
